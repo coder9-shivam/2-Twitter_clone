@@ -1,0 +1,60 @@
+.header{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 2px;
+  position: absolute;
+  left: 350px;
+  width: 500px;
+}
+
+.content-page{
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.tweet-post{
+  display: flex;
+  justify-content: space-between;
+  column-gap: 10px;
+  border: 1px solid black;
+  height: 120px;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.user-profile-picture img{
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+}
+
+.post-content-input{
+  flex: 1;
+}
+
+.post-content-input{
+  border: none;
+  font-size: 18px;
+  padding: 8px 6px;
+  width: 350px;
+}
+
+.post-content-input:focus{
+  outline: none;
+}
+
+.tweet-post-button button{
+  background-color: rgb(43, 156, 248);
+  color: white;
+  border: none;
+  border-radius: 40px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 12px;
+  margin-top: 70px;
+}

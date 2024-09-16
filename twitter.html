@@ -1,11 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Twitter Clone</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css/content.css" />
+    <link rel="stylesheet" href="style.css/left_sidebar.css" />
+    <link rel="stylesheet" href="style.css/right_sidebar.css" />
+    <link rel="stylesheet" href="style.css/header.css" />
+    <link rel="stylesheet" href="style.css/general.css" />
+  </head>
+  <body>
+
+    <!-- HEADER SECTION -->
+    <header class="header">
+      <div class="content-page">Home</div>
+
+      <section class="tweet-post">
+        <div class="user-profile-picture">
+          <img src="Images/profile.png" alt="">
+        </div>
+        <div class="tweet-post-content">
+          <input class="post-content-input" type="text" name="" id="" rows="10" placeholder="What's happpening?">
+        </div>
+        <div class="tweet-post-button">
+          <button class="post-button">
+            Tweet
+          </button>
+        </div>
+      </section>
+
+    </header>
+    
+
+
+
+
+    <!-- LEFT SIDEBAR SECTION -->
+    <nav class="left-sidebar">
+      <section class="twitter-logo-section">
+          <img class="twitter-logo" src="icons/twitter-brands-solid.svg" alt="">
+      </section>
+
+      <section class="twitter-menu-section">
+        <div class="menu-logos">
+          <img class="logo-icons" src="icons/house-solid.svg" alt="">
+          <div class="logo-name">Home</div>
+        </div>
+
+        <div class="menu-logos">
+          <img class="logo-icons" src="icons/magnifying-glass-solid.svg" alt="">
+          <div class="logo-name">Explore</div>
+        </div>
+
+        <div class="menu-logos">
+          <img class="logo-icons" src="icons/bell-regular.svg" alt="">
+          <div class="logo-name">Notification</div>
+        </div>
+
+        <div class="menu-logos">
+          <img class="logo-icons" src="icons/envelope-regular.svg" alt="">
+          <div class="logo-name">Messages</div>
+        </div>
+
+        <div class="menu-logos">
+          <img class="logo-icons" src="icons/bookmark-regular.svg" alt="">
+          <div class="logo-name">Bookmarks</div>
+        </div>
+
+        <div class="menu-logos">
+          <img class="logo-icons" src="icons/rectangle-list-regular.svg" alt="">
+          <div class="logo-name">Lists</div>
+        </div>
+
+        <div class="menu-logos">
+          <img class="logo-icons" src="icons/user-regular.svg" alt="">
+          <div class="logo-name">Profile</div>
+        </div>
+
+        <div class="menu-logos">
+          <img class="logo-icons" src="icons/ellipsis-solid.svg" alt="">
+          <div class="logo-name">More</div>
+        </div>
+
+      </section>
+
+      <section class="twitter-button-section">
+        <button class="twitter-button">Tweet</button>
+      </section>
+    </nav>
+
+  </body>
 </html>

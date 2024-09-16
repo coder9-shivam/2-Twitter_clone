@@ -1,0 +1,65 @@
+.left-sidebar{
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  padding: 40px 40px 40px 50px;
+  width: 350px;
+  background-color: rgba(219, 219, 219, 0.354);
+}
+
+.twitter-logo{
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.menu-logos{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  column-gap: 30px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.menu-logos:hover{
+  background-color: rgba(182, 182, 182, 0.386);
+  border-radius: 5px;
+  color: rgb(43, 156, 248);
+}
+
+.logo-icons{
+  width: 30px;
+  height: 20px;
+}
+
+.logo-name{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.twitter-button-section{
+  display: flex;
+  justify-content: center;
+}
+
+.twitter-button{
+  background-color: rgb(43, 156, 248);
+  color: white;
+  border: none;
+  border-radius: 40px;
+  padding: 14px 110px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.twitter-button:hover{
+  background-color: rgba(23, 140, 236, 0.722);
+}
