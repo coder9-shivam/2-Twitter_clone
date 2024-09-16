@@ -3,9 +3,10 @@
   justify-content: center;
   flex-direction: column;
   row-gap: 2px;
+  width: 500px;
+  
   position: absolute;
   left: 350px;
-  width: 500px;
 }
 
 .content-page{
