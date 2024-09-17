@@ -6,5 +6,6 @@
 
 body{
   font-family: Roboto, arial;
-  height: 1000px;
+  height: 100vh;
+  padding: 0 10px;
 }

@@ -1,31 +1,32 @@
-.header{
+.middle-section{
   display: flex;
   justify-content: center;
   flex-direction: column;
   row-gap: 2px;
-  width: 500px;
-  
+  width: 650px;
+
   position: absolute;
-  left: 350px;
+  left: 365px;
 }
 
-.content-page{
+.feed-header{
   height: 40px;
-  border: 1px solid black;
-  border-radius: 4px;
+  border-radius: 5px;
   padding: 8px 12px;
   font-size: 18px;
   font-weight: bold;
+  margin-bottom: 2px;
+  box-shadow: 0 0px 10px rgba(153, 153, 153, 0.23);
 }
 
 .tweet-post{
   display: flex;
   justify-content: space-between;
-  column-gap: 10px;
-  border: 1px solid black;
+  column-gap: 12px;
   height: 120px;
   padding: 8px 12px;
   border-radius: 4px;
+  box-shadow: 0 0px 10px rgba(153, 153, 153, 0.373);
 }
 
 .user-profile-picture img{
@@ -34,28 +35,27 @@
   object-fit: cover;
 }
 
-.post-content-input{
-  flex: 1;
+.tweet-post-content{
+  flex: 2;
 }
 
 .post-content-input{
   border: none;
   font-size: 18px;
   padding: 8px 6px;
-  width: 350px;
 }
 
 .post-content-input:focus{
   outline: none;
 }
 
-.tweet-post-button button{
+.post-button{
   background-color: rgb(43, 156, 248);
   color: white;
   border: none;
   border-radius: 40px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
-  padding: 8px 12px;
+  padding: 8px 14px;
   margin-top: 70px;
 }
