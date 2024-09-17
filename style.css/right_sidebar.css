@@ -1,0 +1,45 @@
+.right-sidebar{
+  position: fixed;
+  left: 1040px;
+
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.serach-twitter{
+  display: flex;
+  align-items: center;
+  background-color: rgb(242, 242, 242);
+  border-radius: 30px;
+  padding: 8px 12px;
+  margin-top: 10px;
+}
+
+.serach-twitter img{
+  width: 30px;
+}
+
+.serach-twitter input{
+  font-size: 16px;
+  border: none;
+  background-color: rgb(242, 242, 242);
+  flex: 1;
+}
+
+.serach-twitter input:focus{
+  outline: none;
+}
+
+.news-cards{
+  background-color: rgba(242, 242, 242, 0.633);
+  border-radius: 20px;
+  padding: 12px 15px;
+}
+
+.news-cards-heading{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}

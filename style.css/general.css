@@ -7,5 +7,8 @@
 body{
   font-family: Roboto, arial;
   height: 100vh;
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0 10px;
 }

@@ -1,5 +1,5 @@
 .main-section{
-  margin-top: 20px;
+  margin-top: 8px;
   border-radius: 6px;
   box-shadow: 0 0px 10px rgba(207, 207, 207, 0.5);
 }
@@ -22,9 +22,20 @@
   flex: 1;
 }
 
+.creator-profiles{
+  border-radius: 6px;
+  margin-bottom: 10px;
+  box-shadow: 0 0px 10px rgba(207, 207, 207, 0.5);
+}
+
 .user-profile-name{
   font-size: 18px;
   font-weight: 600;
+  vertical-align: center;
+}
+
+.user-profile-name img{
+  width: 15px;
 }
 
 .user-profile-id{
